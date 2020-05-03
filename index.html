@@ -2,7 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <title>Nombre de la App</title>
+        <title>Mi aplicacion</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/themes/app.min.css">
         <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
@@ -12,34 +12,49 @@
         <script src="cordova.js"></script>
     </head>
     <body>
-        <div data-role="page" id="primera">
+        <div data-role="page" id="inicial">
 
-            <div data-role="header">
-                <h1>Título de la página</h1>
-            </div><!-- /header -->
+           
+          
 
             <div role="main" class="ui-content">
-                <p>Contenido de la página</p>
-            </div><!-- /content -->
+                <p></p>
+            <a href="#login" class="ui-btn ui-corner-all">Ingresar</a>
+               <a href="#registro" class="ui-btn ui-corner-all">Registrarse</a>
+              
 
-            <div data-role="footer" data-position="fixed">
-                <h4>Footer de la página.</h4>
-            </div><!-- /footer -->
+            
+          
         </div><!-- /page -->
         
-        <div data-role="page" id="segunda">
+        <div data-role="page" id="login">
 
             <div data-role="header">
                 <h1>Título de la página</h1>
             </div><!-- /header -->
 
             <div role="main" class="ui-content">
-                <p>Contenido de la página.</p>
+                <p>Ingrese su usuario y contraseña.</p>
             </div><!-- /content -->
 
             <div data-role="footer">
                 <h4>Footer de la página.</h4>
             </div><!-- /footer -->
         </div><!-- /page -->
+          
+          <div data-role="page" id="registro">
+
+            <div data-role="header">
+                <h1>Título de la página</h1>
+            </div><!-- /header -->
+
+            <div role="main" class="ui-content">
+                <p>Ingrese sus datos para registrarse.</p>
+            </div><!-- /content -->
+
+            <div data-role="footer">
+                <h4>Footer de la página.</h4>
+            </div><!-- /footer -->
+        </div>
     </body>
 </html>
